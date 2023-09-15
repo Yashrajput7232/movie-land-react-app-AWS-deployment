@@ -1,6 +1,6 @@
 FROM node:14 as builder
 
-WORKDIR /app/react-app
+WORKDIR /app
 
 COPY  package.json .
 
