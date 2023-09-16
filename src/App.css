@@ -50,7 +50,7 @@ h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
   background: linear-gradient(
-    90deg,
+    to bottom,
     rgba(249, 211, 180, 1) 0%,
     rgba(60, 193, 211, 0) 100%
   );
