@@ -1,6 +1,6 @@
 FROM node:14 as builder
 
-WORKDIR /app/react-app
+WORKDIR /app
 
 COPY  package.json .
 
@@ -14,4 +14,4 @@ FROM nginx
 
 EXPOSE 80
 
-# COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/build  /usr/share/nginx/html
